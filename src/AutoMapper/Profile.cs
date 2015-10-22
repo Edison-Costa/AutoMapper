@@ -32,7 +32,7 @@ namespace AutoMapper
             ShouldMapField = f => f.IsPublic;
         }
 
-        public string ProfileName { get; }
+        public virtual string ProfileName { get; }
 
         public void DisableConstructorMapping()
         {
